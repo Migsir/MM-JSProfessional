@@ -1,0 +1,16 @@
+{
+  "name": "MMJS-media-player",
+  "version": "1.0.0",
+  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
+  "license": "MIT",
+  "author": "King Mena <migsir1@gmail.com>",
+  "keywords": [
+    "Media Player"
+  ],
+  "scripts": {
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
