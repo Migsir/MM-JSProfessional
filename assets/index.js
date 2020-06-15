@@ -1,9 +1,13 @@
 import MediaPlayer from './MediaPlayer.js'
 import Autoplay from './Plugins/Autoplay.js'
+import AutoPause from './Plugins/AutoPause.js'
 
 
 const video  = document.querySelector("video");
-const player = new MediaPlayer({ el: video, plugins:[new Autoplay()]});
+const player = new MediaPlayer({ 
+    el: video, 
+    plugins:[new Autoplay(), new AutoPause()]
+});
 
 const playButton = document.querySelector("#playbutton");
 playButton.onclick = () => player.togglePlay();
